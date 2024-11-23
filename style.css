@@ -204,7 +204,16 @@ body.light-mode {
     color: #ff6f61; /* Soft coral on hover */
     transform: rotate(15deg);
 }
-
+.icon2>a{
+    color: #f39c12;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: color 0.3s, 
+}
+.icon2>h4{
+font-size: xx-large;
+color: #f39c12;
+}
 .content img {
     max-width: 95%;
     border-radius: 50%;

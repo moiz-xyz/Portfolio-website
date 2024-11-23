@@ -285,9 +285,24 @@ body.light-mode {
     font-weight: bold;
     color: #f39c12;
 }
+.Project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    
+}
+.Project>h1{
+    color: #f39c12;
+    font-size: 40px;
+
+}
+.Project>p{
+    font-size: larger;
+}
 
 /* Projects Section */
-.Project, .donework {
+ .donework {
     padding: 60px 20px;
     text-align: center;
     background: #2c2c2c; /* Medium gray for projects */

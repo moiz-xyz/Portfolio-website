@@ -423,7 +423,30 @@ footer {
     nav ul {
         display: none; /* Hide navigation items initially on mobile */
     }
-
+    .Project {
+        display: flex;
+        flex-direction: column; /* Ensure vertical alignment of elements */
+        align-items: center; /* Center align content horizontally */
+        padding: 20px; /* Add spacing inside the container */
+        width: 100%;
+    }
+    
+    .Project > h1 {
+        color: #f39c12;
+        font-size: 40px;
+        margin-bottom: 10px; /* Add spacing below the heading */
+    }
+    
+    .Project > p {
+        color: white;
+        font-size: 18px; /* Slightly larger font for better readability */
+        width: 90%; /* Reduce width to avoid edge-clipping */
+        text-align: justify;
+        line-height: 1.6; /* Add line spacing for readability */
+        margin: 10px 0; /* Space around the paragraph */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    }
+    
     #bars {
         display: block;
 position: absolute;
@@ -448,6 +471,30 @@ top: 4%;
       .donework div {
         flex: 0 0 100%;
     }
+    .Project {
+        display: flex;
+        flex-direction: column; /* Ensure vertical alignment of elements */
+        align-items: center; /* Center align content horizontally */
+        padding: 20px; /* Add spacing inside the container */
+        width: 100%;
+    }
+    
+    .Project > h1 {
+        color: #f39c12;
+        font-size: 40px;
+        margin-bottom: 10px; /* Add spacing below the heading */
+    }
+    
+    .Project > p {
+        color: white;
+        font-size: 18px; /* Slightly larger font for better readability */
+        width: 90%; /* Reduce width to avoid edge-clipping */
+        text-align: justify;
+        line-height: 1.6; /* Add line spacing for readability */
+        margin: 10px 0; /* Space around the paragraph */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    }
+    
 
     footer {
         font-size: 10px;

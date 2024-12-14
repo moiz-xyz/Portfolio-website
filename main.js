@@ -10,7 +10,6 @@
     }
     
     function hide() {
-        console.log("Hide function triggered");
         const slidebar = document.querySelector(".nav-mobile");
         const bars = document.getElementById("bars");
         const cross = document.getElementById("cross");

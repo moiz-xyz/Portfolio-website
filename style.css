@@ -304,14 +304,15 @@ color: #f39c12;
 .Project>h1{
     color: #f39c12;
     font-size: 40px;
-
+    
 }
 .Project>p{
+    border: 1px solid red;
     font-size: larger;
 }
 
 /* Projects Section */
- .donework {
+.donework {
     padding: 60px 20px;
     text-align: center;
     background: #2c2c2c; /* Medium gray for projects */
@@ -488,11 +489,12 @@ top: 4%;
     .Project > p {
         color: white;
         font-size: 18px; /* Slightly larger font for better readability */
-        width: 90%; /* Reduce width to avoid edge-clipping */
+        width: 80%; /* Reduce width to avoid edge-clipping */
         text-align: justify;
         line-height: 1.6; /* Add line spacing for readability */
         margin: 10px 0; /* Space around the paragraph */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+
     }
     
 

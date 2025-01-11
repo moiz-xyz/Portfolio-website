@@ -307,7 +307,6 @@ color: #f39c12;
     
 }
 .Project>p{
-    border: 1px solid red;
     font-size: larger;
 }
 
@@ -483,7 +482,7 @@ top: 4%;
     .Project > h1 {
         color: #f39c12;
         font-size: 40px;
-        margin-bottom: 10px; /* Add spacing below the heading */
+        margin-bottom: 10px; /* Add spacing below the heading *
     }
     
     .Project > p {
